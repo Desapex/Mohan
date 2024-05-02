@@ -84,7 +84,7 @@
                             <h3 class="register-heading text-left">Do you want to Unsubscribe?</h3>
 <div class="row register-form">
             <div class="col-md-12">
-                                    <form method="post" autocomplete="off" name="google-sheet">
+                                    <!---<form method="post" autocomplete="off" name="google-sheet">
                                         <div class="form-group">
                                             <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
                                         </div>
@@ -94,7 +94,12 @@
                                         <div class="form-group">
                                             <input type="submit" name="submit" class="btnSubmit btn-block" value="Submit" />
                                         </div>
-                                    </form>
+                                    </form>!-->
+		    <form method="POST" action="https://script.google.com/macros/s/AKfycbyNcUO3YaOstjasgI0RROxAa8-McURQYpcCPbBvIO_fDapbg47g2Hr6OFjtukjJ7Cg1zw/exec">
+ 							 <input name="Email" type="email" placeholder="Email" required>
+ 								 <input name="Name" type="text" placeholder="Name" required>
+ 									 <button type="submit">Send</button>
+							</form>
 	</div>
                             </div>
                         </div>
